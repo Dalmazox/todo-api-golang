@@ -1,0 +1,11 @@
+### hello
+
+GET http://localhost:8080/hello
+
+### health
+
+GET http://localhost:8080/healthcheck
+
+### Todo list
+
+GET http://localhost:8080/todo/list

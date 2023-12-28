@@ -1,0 +1,86 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below if using modules)
+# /vendor/
+
+# Compiled Go source
+*.cgo.go
+
+# Compiled Lua source and compiled files
+*.lua
+*.luac
+
+# Generated files
+gen-*
+
+# User-specific files
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Build files
+/build/
+
+# Automatically generated files
+/_generated/
+
+# The binary file produced when testing a Go package
+*.test
+
+# Output directory
+/dist/
+
+# Mac OS X Finder
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Go files
+.idea/
+*.iml
+
+# Compiled Object files, Static and Dynamic libs (Windows, macOS, Linux)
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Log files and binaries
+*.log
+*.log.*
+*.stackdump
+
+# Diagnostic reports (https://golang.org/doc/diagnostics.html)
+crash.log
